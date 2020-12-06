@@ -1,6 +1,6 @@
 from openpyxl import load_workbook
 
-load_wb=load_workbook("C:\WORK\python\과일.xlsx",data_only=True)
+load_wb=load_workbook("과일.xlsx",data_only=True)
 
 load_ws=load_wb['Sheet1']
 
